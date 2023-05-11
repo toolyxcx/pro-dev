@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cccc8003a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <title>Nueva Maquina</title>
+</head>
+<body>
+    <div class="Contenido">
+        <h1 class="logo "> <u> Prodev </u></h1>
+            <div class="Contenido-Agrupado">
+                <h1 class="img"><img src="assets/img/Imagen2.png" width="15%" > <u>Nueva Maquina</u> </h1>
+                    <div class="formulario-Contenido">
+                        <form action="conexion.php"> 
+                            <p>
+                                <label> Nombre Maquina</label>
+                                <input type="text" name="Nombre Maquina"> 
+                            </p>
+                            <p>
+                                <label > Marca</label>
+                                <input type="text" name="Marca">
+                            </p>
+                            <p>
+                                <label> serial</label>
+                                <input type="text" name="Serial"> 
+                            </p>
+                            <p>
+                                <label > Tipo Maquina</label>
+                                <input type="text" name="Tipo Maquina">
+                            </p>
+                            <p>
+                                <label> Tipo mantenimiento</label>
+                                <input type="text" name="Tipo mantenimiento"> 
+                            </p>
+                            <p>
+                                <label > Fecha ingreso</label>
+                                <input type="date" name="Fecha ingreso">
+                            </p>
+                            <p>
+                                <label > email</label>
+                                <input type="email" name="email">
+                            </p>
+                            <p>
+                                <label for="Estado"> Estado</label>
+                                    <select name="Estado" id="Estado">
+                                        <option value="Ingresado">Ingresado</option>
+                                        <option value="En Mantenimiento">En Mantenimiento</option>
+                                        <option value="Reparado">Reparado</option>
+                                    </select>
+                            </p>
+                            <p class="block">
+                                <label > Descripción</label>
+                                <textarea name="Descripción" rows="2"></textarea>
+                            </p>
+                            <p>
+                                <button type="submit">
+                                    Agregar    
+                                </button>
+                            </p>
+                            <p>
+                                <button type="submit">
+                                    Volver    
+                                </button>
+                            </p>                  
+                    </form>
+                </div>
+        </div>
+    </div>                     
+</body>
+</html>
